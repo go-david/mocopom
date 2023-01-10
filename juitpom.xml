@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.dreamhead</groupId>
+  <artifactId>moco-junit</artifactId>
+  <version>1.4.0</version>
+  <name>moco-junit</name>
+  <description>Moco is an easy setup stub framework, mainly focusing on testing and integration.</description>
+  <url>https://github.com/dreamhead/moco</url>
+  <licenses>
+    <license>
+      <name>MIT Licence</name>
+      <url>https://raw.githubusercontent.com/dreamhead/moco/master/MIT-LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dreamhead</id>
+      <name>Zheng Ye</name>
+      <email>dreamhead.cn@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/dreamhead/moco.git</connection>
+    <developerConnection>https://github.com/dreamhead/moco.git</developerConnection>
+    <url>https://github.com/dreamhead/moco</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.dreamhead</groupId>
+      <artifactId>moco-core</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.dreamhead</groupId>
+      <artifactId>moco-runner</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>31.1-jre</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-http</artifactId>
+      <version>4.1.85.Final</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-handler</artifactId>
+      <version>4.1.85.Final</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.14.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-xml</artifactId>
+      <version>2.14.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents.client5</groupId>
+      <artifactId>httpclient5</artifactId>
+      <version>5.1.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jayway.jsonpath</groupId>
+      <artifactId>json-path</artifactId>
+      <version>2.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.freemarker</groupId>
+      <artifactId>freemarker</artifactId>
+      <version>2.3.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.5</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
