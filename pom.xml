@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.dreamhead</groupId>
+  <artifactId>moco</artifactId>
+  <version>1.4.0</version>
+  <packaging>pom</packaging>
+  <name>moco</name>
+  <description>Moco is an easy setup stub framework, mainly focusing on testing and integration.</description>
+  <url>https://github.com/dreamhead/moco</url>
+  <licenses>
+    <license>
+      <name>MIT Licence</name>
+      <url>https://raw.githubusercontent.com/dreamhead/moco/master/MIT-LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dreamhead</id>
+      <name>Zheng Ye</name>
+      <email>dreamhead.cn@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/dreamhead/moco.git</connection>
+    <developerConnection>https://github.com/dreamhead/moco.git</developerConnection>
+    <url>https://github.com/dreamhead/moco</url>
+  </scm>
+</project>
